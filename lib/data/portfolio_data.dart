@@ -15,7 +15,7 @@ class PortfolioData {
   static const String email = 'mariyavarghese084@gmail.com';
   static const String phone = '+91-7306815889';
   static const String githubUrl = 'https://github.com/mariyavarghese084';
-  static const String linkedinUrl = 'https://linkedin.com/in/mariya-varghese';
+  static const String linkedinUrl = 'https://www.linkedin.com/in/mariya-varghese-438320256';
 
   /// Configuration constant for the Android APK download URL.
   /// Replace this URL whenever updating the hosted APK build.
