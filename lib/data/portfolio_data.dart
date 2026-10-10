@@ -15,42 +15,112 @@ class PortfolioData {
   static const String email = 'mariyavarghese084@gmail.com';
   static const String phone = '+91-7306815889';
   static const String githubUrl = 'https://github.com/mariyavarghese084';
-  static const String linkedinUrl = 'https://www.linkedin.com/in/mariya-varghese-438320256';
+  static const String linkedinUrl =
+      'https://www.linkedin.com/in/mariya-varghese-438320256';
 
   /// Configuration constant for the Android APK download URL.
   /// Replace this URL whenever updating the hosted APK build.
   static const String apkDownloadUrl =
-      'https://github.com/mariyavarghese084/MySelfPortfoliyo/releases/download/v1.0.0/app-release.apk';
+      'https://github.com/mariyavarghese084/MySelfPortfoliyo/releases/download/v1.0.1/app-release.apk';
 
-
-  static const List<String> languagesSpoken = [
-    'English',
-    'Hindi',
-    'Malayalam',
-  ];
+  static const List<String> languagesSpoken = ['English', 'Hindi', 'Malayalam'];
 
   static const List<Skill> skills = [
     // Programming
-    Skill(name: 'Dart', category: SkillCategory.programming, isPrimary: true, icon: Icons.code_rounded),
-    Skill(name: 'C', category: SkillCategory.programming, icon: Icons.terminal_rounded),
-    Skill(name: 'HTML', category: SkillCategory.programming, icon: Icons.html_rounded),
-    Skill(name: 'CSS', category: SkillCategory.programming, icon: Icons.css_rounded),
-    Skill(name: 'SQL', category: SkillCategory.programming, isPrimary: true, icon: Icons.data_array_rounded),
+    Skill(
+      name: 'Dart',
+      category: SkillCategory.programming,
+      isPrimary: true,
+      icon: Icons.code_rounded,
+    ),
+    Skill(
+      name: 'C',
+      category: SkillCategory.programming,
+      icon: Icons.terminal_rounded,
+    ),
+    Skill(
+      name: 'HTML',
+      category: SkillCategory.programming,
+      icon: Icons.html_rounded,
+    ),
+    Skill(
+      name: 'CSS',
+      category: SkillCategory.programming,
+      icon: Icons.css_rounded,
+    ),
+    Skill(
+      name: 'SQL',
+      category: SkillCategory.programming,
+      isPrimary: true,
+      icon: Icons.data_array_rounded,
+    ),
 
     // Frameworks & Tools
-    Skill(name: 'Flutter', category: SkillCategory.frameworksAndTools, isPrimary: true, icon: Icons.widgets_rounded),
-    Skill(name: 'FlutterFlow', category: SkillCategory.frameworksAndTools, isPrimary: true, icon: Icons.layers_rounded),
-    Skill(name: 'Firebase', category: SkillCategory.frameworksAndTools, isPrimary: true, icon: Icons.local_fire_department_rounded),
-    Skill(name: 'REST APIs', category: SkillCategory.frameworksAndTools, isPrimary: true, icon: Icons.api_rounded),
-    Skill(name: 'Git', category: SkillCategory.frameworksAndTools, icon: Icons.fork_left_rounded),
-    Skill(name: 'GitHub', category: SkillCategory.frameworksAndTools, icon: Icons.source_rounded),
-    Skill(name: 'MySQL', category: SkillCategory.frameworksAndTools, isPrimary: true, icon: Icons.storage_rounded),
-    Skill(name: 'Figma', category: SkillCategory.frameworksAndTools, icon: Icons.palette_rounded),
+    Skill(
+      name: 'Flutter',
+      category: SkillCategory.frameworksAndTools,
+      isPrimary: true,
+      icon: Icons.widgets_rounded,
+    ),
+    Skill(
+      name: 'FlutterFlow',
+      category: SkillCategory.frameworksAndTools,
+      isPrimary: true,
+      icon: Icons.layers_rounded,
+    ),
+    Skill(
+      name: 'Firebase',
+      category: SkillCategory.frameworksAndTools,
+      isPrimary: true,
+      icon: Icons.local_fire_department_rounded,
+    ),
+    Skill(
+      name: 'REST APIs',
+      category: SkillCategory.frameworksAndTools,
+      isPrimary: true,
+      icon: Icons.api_rounded,
+    ),
+    Skill(
+      name: 'Git',
+      category: SkillCategory.frameworksAndTools,
+      icon: Icons.fork_left_rounded,
+    ),
+    Skill(
+      name: 'GitHub',
+      category: SkillCategory.frameworksAndTools,
+      icon: Icons.source_rounded,
+    ),
+    Skill(
+      name: 'MySQL',
+      category: SkillCategory.frameworksAndTools,
+      isPrimary: true,
+      icon: Icons.storage_rounded,
+    ),
+    Skill(
+      name: 'Figma',
+      category: SkillCategory.frameworksAndTools,
+      icon: Icons.palette_rounded,
+    ),
 
     // Platforms
-    Skill(name: 'Android', category: SkillCategory.platforms, isPrimary: true, icon: Icons.android_rounded),
-    Skill(name: 'iOS', category: SkillCategory.platforms, isPrimary: true, icon: Icons.apple_rounded),
-    Skill(name: 'Web', category: SkillCategory.platforms, isPrimary: true, icon: Icons.language_rounded),
+    Skill(
+      name: 'Android',
+      category: SkillCategory.platforms,
+      isPrimary: true,
+      icon: Icons.android_rounded,
+    ),
+    Skill(
+      name: 'iOS',
+      category: SkillCategory.platforms,
+      isPrimary: true,
+      icon: Icons.apple_rounded,
+    ),
+    Skill(
+      name: 'Web',
+      category: SkillCategory.platforms,
+      isPrimary: true,
+      icon: Icons.language_rounded,
+    ),
   ];
 
   static const List<Project> projects = [
